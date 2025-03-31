@@ -102,5 +102,9 @@ The `Tetris` class manages **grid, piece movement, collision detection, renderin
 
 ---
 
+## This is how our Tetris Game looks :
+
+![image alt](https://github.com/JhanviBarot/Tetris-Game-in-C-/blob/7cc96c8edb251722613a112a004c105c74b04efc/GameConsoleImage.png)
+
 ## 
 Enjoy playing **Tetris** with **smooth controls, ghost piece, and cool sound effects!** 🎉

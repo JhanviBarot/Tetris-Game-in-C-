@@ -46,21 +46,21 @@ The `Tetris` class manages **grid, piece movement, collision detection, renderin
 
 #### **Core Functions**
 
-🔹 `generateNextPiece()` -> Generates the next tetromino   
-🔹 `spawnPiece()` -> Spawns a new piece at the top   
-🔹 `isValidMove()` -> Checks if a move is valid    
-🔹 `rotatePiece()` -> Rotates the current tetromino   
-🔹 `movePiece()` -> Moves the tetromino left or right   
-🔹 `moveDown()` -> Moves the tetromino down   
-🔹 `dropPiece()` -> Instantly drops the tetromino   
-🔹 `lockPiece()` -> Locks a tetromino in place   
-🔹 `clearLines()` -> Clears full rows and updates score   
-🔹 `loadHighScore()` -> Loads high score from file   
-🔹 `saveHighScore()` -> Saves high score to file   
-🔹 `useLifeline()` -> Clears the bottom 3 rows once   
-🔹 `drawBoard()` -> Renders the game frame  
-🔹 `handleInput()` -> Captures user input  
-🔹 `play()` -> Runs the game loop  
+🔹 **`generateNextPiece()`** -> Generates the next tetromino   
+🔹 **`spawnPiece()`** -> Spawns a new piece at the top   
+🔹 **`isValidMove()`** -> Checks if a move is valid    
+🔹 **`rotatePiece()`** -> Rotates the current tetromino   
+🔹 **`movePiece()`** -> Moves the tetromino left or right   
+🔹 **`moveDown()`** -> Moves the tetromino down   
+🔹 **`dropPiece()`** -> Instantly drops the tetromino   
+🔹 **`lockPiece()`** -> Locks a tetromino in place   
+🔹 **`clearLines()`** -> Clears full rows and updates score   
+🔹 **`loadHighScore()`** -> Loads high score from file   
+🔹 **`saveHighScore()`** -> Saves high score to file   
+🔹 **`useLifeline()`** -> Clears the bottom 3 rows once   
+🔹 **`drawBoard()`** -> Renders the game frame  
+🔹 **`handleInput()`** -> Captures user input  
+🔹 **`play()`** -> Runs the game loop  
 
 ---
 
@@ -95,8 +95,7 @@ The `Tetris` class manages **grid, piece movement, collision detection, renderin
 
 ## Implementation on LINUX/MAC OS
 🔹Remove windows specific headers which are windows.h and conio.h with termios.h, unistd.h and fcntl.h       
-🔹To replace windows specific functions _kbhit(), _getch() and SetConsoleCursorPosition() you need to add their code snippets in the            
-   original game code     
+🔹To replace windows specific functions _kbhit(), _getch() and SetConsoleCursorPosition() you need to add their code snippets in the original game code     
 🔹Enable UTF-8 (Linux Terminal supports it natively)      
 🔹Remove Beep() and replace it with system sounds    
 
